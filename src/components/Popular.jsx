@@ -13,7 +13,7 @@ function Popular() {
 
     const getPopular = async () => {
 
-      const check = localStorage.getItem('popular');
+      const check = localStorage.getItem('healthy');
 
       if(check) {
         setPopular(JSON.parse(check));
@@ -21,7 +21,7 @@ function Popular() {
         const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=ba5c2b5b57d0449e9abafed8e94e5d69&number=9`);
         const data = await api.json();
 
-        localStorage.setItem("popular", JSON.stringify(data.recipes));
+        localStorage.setItem("healthy", JSON.stringify(data.recipes));
       setPopular(data.recipes);
       console.log(data.recipes);
       }
@@ -31,7 +31,7 @@ function Popular() {
   return (
     <div>
    <Wrapper>
-        <h3>Popular Picks</h3>
+        <h3>Healthy Picks</h3>
 
         <Splide 
         options={{
