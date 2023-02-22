@@ -4,6 +4,9 @@ import { Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import {Link} from 'react-router-dom';
 
+//I wanted to create a separate .env file for the apikey but it did not work out. 
+//Also the spoonacular API is limited, only 150 requests per day. Then the app stops working.
+
 function Popular() {
    const [popular, setPopular] = useState([]);
 
@@ -18,7 +21,9 @@ function Popular() {
       if(check) {
         setPopular(JSON.parse(check));
       } else {
+        //getting data from the spoonacular API
         const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=ba5c2b5b57d0449e9abafed8e94e5d69&number=9`);
+        //saving it into a variable
         const data = await api.json();
 
         localStorage.setItem("healthy", JSON.stringify(data.recipes));

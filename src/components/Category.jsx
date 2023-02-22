@@ -1,7 +1,7 @@
 import {FaPizzaSlice, FaHamburger} from 'react-icons/fa';
 import {GiNoodles, GiChopsticks, GiOlive, GiGreekTemple} from 'react-icons/gi';
 import styled from 'styled-components';
-//styled-components makes things easier even though I like the idea of having a global CSS file too. I still might work on this
+//styled-components makes things easier even though I like the idea of having a global CSS file too. I still might work on
 import { NavLink } from 'react-router-dom';
 
 //the idea of using react-icons makes life so much easier
@@ -11,6 +11,15 @@ import React from 'react'
 function Category() {
   return (
     <List>
+        
+    <SLink to={'/cuisine/Mediterranean'}>
+        <GiOlive />
+        <h4>Mediterranean</h4>
+      </SLink>
+    <SLink to={'/cuisine/Greek'}>
+        <GiGreekTemple />
+        <h4>Greek</h4>
+      </SLink>
       <SLink to={'/cuisine/Italian'}>
         <FaPizzaSlice />
         <h4>Italian</h4>
@@ -22,15 +31,7 @@ function Category() {
       <SLink to={'/cuisine/Japanese'}>
         <GiChopsticks />
         <h4>Japanese</h4>
-      </SLink>
-      <SLink to={'/cuisine/Mediterranean'}>
-        <GiOlive />
-        <h4>Mediterranean</h4>
-      </SLink>
-      <SLink to={'/cuisine/Greek'}>
-        <GiGreekTemple />
-        <h4>Greek</h4>
-      </SLink>
+      </SLink>    
       <SLink to={'/cuisine/American'}>
         <FaHamburger />
         <h4>American</h4>

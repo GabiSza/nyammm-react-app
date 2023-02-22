@@ -7,7 +7,7 @@ However, my plans got a bit blocked by the available data online. Therefore, my 
 
 Before starting to work on my project I created a Google survey and 27 respondents filled it in. Based on the results I got the confirmation that users would be happy to use a Catalan cuisine app and would actually need something to feel more integrated in Catalonia. Most of the respondents 63 % answered 'Yes' to the question whether this application would be necessary. Considering the fact that most of the respondents 51.9 % do not use any cooking app, this is a positive reaction. But now as I am doing a general recipe app I realized, that before asking my future users what they want, I should have checked first what I can do with the data available. 😆 Big lesson for the future.
 
-Anyway, it was fun to create user stories, user personas and wireframe for this MVP and I thought that I can really do the app in a way I imagined. But none of the tested API contained specific Catalan food. Even if I could have done the categories based on the holidays, there was only one Catalan recipe in the Spoonacualar food API I used. I have tried other food APIs as well, many of them were not for free and/or did not contain categories/recipes I was interested in.
+Anyway, it was fun to create user stories, user personas and wireframe for this MVP and I thought that I can really do the app in a way I imagined. But none of the tested API contained specific Catalan food. Even if I could have done the categories based on the holidays, there was only one Catalan recipe in the Spoonacualar food API I used. I have tried other food APIs as well, many of them were not for free and/or did not contain categories/recipes I was interested in. Another limitation of the Spoonacular API is that the free version is limited and after 150 recipe requests (which can happen pretty quickly while working on the app) it stops working.
 Instead of creating a global CSS file I used React styled components which was handy to know, especially until now we mainly used separate CSS files during our exercises. React started to feel like an amusement park with surprises instead of an endless trail into darkness.
 
 I think with a back end part I could make an app I want, uploading specific recipes and images but for now I leave it only with front end.
@@ -41,7 +41,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Credit statement
+## Credit statement
 
 This is a student project that was created at
 [CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona.
