@@ -1,11 +1,13 @@
 import {FaPizzaSlice, FaHamburger} from 'react-icons/fa';
 import {GiNoodles, GiChopsticks, GiOlive, GiGreekTemple} from 'react-icons/gi';
 import styled from 'styled-components';
+//styled-components makes things easier even though I like the idea of having a global CSS file too. I still might work on this
 import { NavLink } from 'react-router-dom';
 
-
+//the idea of using react-icons makes life so much easier
 import React from 'react'
 
+//I had to check on Postman which categories I can add. It's a pity that I could not add Catalan 
 function Category() {
   return (
     <List>

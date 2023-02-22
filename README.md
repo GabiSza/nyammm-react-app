@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Project title
+
+**Nyammm** refers to something yummy both in Hungarian and Catalan as well. I wanted to create a recipe app that can combine my love for both cuisines.
+However, my plans got a bit blocked by the available data online. Therefore, my project is a basic recipe app with all kinds of cuisine but its name still has a touch of foreignness. 😄
+
+## Project description
+
+Before starting to work on my project I created a Google survey and 27 respondents filled it in. Based on the results I got the confirmation that users would be happy to use a Catalan cuisine app and would actually need something to feel more integrated in Catalonia. Most of the respondents 63 % answered 'Yes' to the question whether this application would be necessary. Considering the fact that most of the respondents 51.9 % do not use any cooking app, this is a positive reaction. But now as I am doing a general recipe app I realized, that before asking my future users what they want, I should have checked first what I can do with the data available. 😆 Big lesson for the future.
+
+Anyway, it was fun to create user stories, user personas and wireframe for this MVP and I thought that I can really do the app in a way I imagined. But none of the tested API contained specific Catalan food. Even if I could have done the categories based on the holidays, there was only one Catalan recipe in the Spoonacualar food API I used.
+
+As this app contains different cuisines I wanted to add some of my favorites: Greek and Mediterranean as well.
+The homepage contains the Healthy picks and the Vegetarian dishes, these are my favorite ones so I wanted to highlight them as well.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,11 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -29,42 +38,17 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Credit statement
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a student project that was created at
+[CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona._
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I used the [Scrimba course](https://scrimba.com/learn/learnreact) to learn more about React and other tutorials from youtube:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Recipe app React course](https://www.youtube.com/watch?v=xc4uOzlndAk&list=PLJwkTKz89ybl8n5W7f9nDyjaBfqY5W1Q8&index=2&t=1544s)
+[Using APIs in React](https://www.youtube.com/watch?v=tvfeBLMA_Q4&list=PLJwkTKz89ybl8n5W7f9nDyjaBfqY5W1Q8&index=3)
+[Spoonacular food API](https://spoonacular.com/food-api)
+I am very grateful for the React Hook [useEffect](https://beta.reactjs.org/reference/react/useEffect#controlling-a-non-react-widget)
+and for the [React icons](https://react-icons.github.io/react-icons/)
+Also happy with [Google Fonts](https://fonts.google.com/)
+And last but definitely not least I have spent quite some time with understanding [React Route](https://www.w3schools.com/react/react_router.asp)

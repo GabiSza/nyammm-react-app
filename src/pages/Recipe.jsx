@@ -14,7 +14,7 @@ function Recipe() {
     const data = await resp.json();
     return data;
   };
-
+// eslint-disable-next-line
   useEffect(() => {
     let isMounted = true;
 
@@ -24,6 +24,7 @@ function Recipe() {
     return () => {
       isMounted = false;
     };
+    // eslint-disable-next-line
   }, [params.id]);
 
   return (
