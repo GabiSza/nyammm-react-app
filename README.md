@@ -1,7 +1,7 @@
 # Project title
 
 **Nyammm** refers to something yummy both in Hungarian and Catalan as well. I wanted to create a recipe app that can combine my love for both cuisines.
-However, my plans got a bit blocked by the available data online. Therefore, my project is a basic recipe app with all kinds of cuisine but its name still has a touch of foreignness. 😄
+However, my plans got a bit blocked by the available data online. Therefore, my project is a basic recipe app with all kinds of cuisine but its name still has a touch of foreignness. 😄 (This is an elegant way to say that I could not find any other title with my sleep deprived brain)
 
 ## Project description
 
