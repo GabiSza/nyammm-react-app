@@ -9,7 +9,10 @@ import {Link} from 'react-router-dom';
 
 function Popular() {
    const [popular, setPopular] = useState([]);
-
+//as soon as the component gets mounted, it will run this getPopular function
+//the empty [] is needed at the end to run it only when the component is mounted
+//this will give us an Object
+//I kept running into the 'not authorized' error because of the .env file... this Spoonacular API was not working well
     useEffect(() => {
         getPopular();
     }, []);
@@ -27,6 +30,7 @@ function Popular() {
         const data = await api.json();
 
         localStorage.setItem("healthy", JSON.stringify(data.recipes));
+    //here the recipes are an array that holds objects and we need to get them
       setPopular(data.recipes);
       console.log(data.recipes);
       }
@@ -48,7 +52,10 @@ function Popular() {
         }}
         >
         {popular.map((recipe) => {
-          return(
+//here we are looping through each recipes
+//without the key prop I kept getting an error as well - we need to add the id as each recipe has an id
+         
+         return(
             <SplideSlide key={recipe.id}>
               <Card>
                 <Link to={"/recipe/" + recipe.id}>
