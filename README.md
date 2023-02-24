@@ -1,7 +1,7 @@
 # Project title
 
 **Nyammm** refers to something yummy both in Hungarian and Catalan as well. I wanted to create a recipe app that can combine my love for both cuisines.
-However, my plans got a bit blocked by the available data online. Therefore, my project is a basic recipe app with all kinds of cuisine but its name still has a touch of foreignness. 😄 (This is an elegant way to say that I could not find any other title with my sleep deprived brain)
+However, my plans got a bit blocked by the available data online. Therefore, my project is a basic recipe app with all kinds of cuisine but its name still has a touch of foreignness. 😄
 
 ## Project description
 
@@ -19,11 +19,11 @@ The homepage contains the Healthy picks and the Vegetarian dishes, these are my 
 ## Technological part
 
 Using React Hooks seemed scary first but they can help a lot with simplifying coding. For me as I did this project with the help of a youtube course, I really had to understand how and why to use these hooks.
-useState()
-useEffect()
-useParams()
-useLocation()
-useNavigate()
++useState()
++useEffect()
++useParams()
++useLocation()
++useNavigate()
 
 First I installed [this extension](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets) in the VSCode. It has useful methods to shorten the way to create new components or import from react.
 
