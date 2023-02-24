@@ -19,11 +19,12 @@ The homepage contains the Healthy picks and the Vegetarian dishes, these are my 
 ## Technological part
 
 Using React Hooks seemed scary first but they can help a lot with simplifying coding. For me as I did this project with the help of a youtube course, I really had to understand how and why to use these hooks.
-*useState()
-*useEffect()
-*useParams()
-*useLocation()
-*useNavigate()
+
+* useState()
+* useEffect()
+* useParams()
+* useLocation()
+* useNavigate()
 
 First I installed [this extension](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets) in the VSCode. It has useful methods to shorten the way to create new components or import from react.
 
