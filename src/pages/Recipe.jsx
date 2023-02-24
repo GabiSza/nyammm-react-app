@@ -24,7 +24,7 @@ function Recipe() {
     return () => {
       isMounted = false;
     };
-    // eslint-disable-next-line
+// eslint-disable-next-line
   }, [params.id]);
 
   return (

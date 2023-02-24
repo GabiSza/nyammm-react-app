@@ -18,7 +18,7 @@ function Searched() {
     };
 useEffect(() => {
     getSearched(params.search);
-    // we can add here params.searched as we have it in PAge.jsx Route
+    // we can add here params.searched as we have it in Page.jsx Route
 }, [params.search]);
 
   return (
