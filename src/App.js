@@ -9,6 +9,7 @@ import { GiKnifeFork } from "react-icons/gi";
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
       <Nav>
         <GiKnifeFork />
@@ -18,6 +19,7 @@ function App() {
         <Category />
         <Pages />
       </BrowserRouter>
+      
     
     </div>
   );
@@ -38,6 +40,6 @@ align-items: center;
 svg{
   font-size: 2rem;
  }
-`
+`;
 
 export default App;
