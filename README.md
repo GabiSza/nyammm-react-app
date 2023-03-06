@@ -77,10 +77,14 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Credit statement
+## Ideas for feature extensions
 
-This is a student project that was created at
-[CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona.
+* Adding a new category (for example French cuisine) which has a database built by us
+* Adding a Contact page
+* Adding a Restaurants page with the best available restaurants in your area(there are really cool APIs for this too also in Spoonacular)
+* Adding an extra Meal Planning Page (<https://spoonacular.com/food-api/docs#Generate-Meal-Plan>)
+  
+## Credit statement
 
 I used the [Scrimba course](https://scrimba.com/learn/learnreact) to learn more about React and other tutorials from youtube:
 
@@ -92,10 +96,5 @@ and for the [React icons](https://react-icons.github.io/react-icons/)
 Also happy with [Google Fonts](https://fonts.google.com/)
 And last but definitely not least I have spent quite some time with understanding [React Route](https://www.w3schools.com/react/react_router.asp)
 
-## Ideas for feature extensions
-
-* Adding a new category (for example French cuisine) which has a database built by us
-* Adding a Contact page
-* Adding a Restaurants page with the best available restaurants in your area(there are really cool APIs for this too also in Spoonacular)
-* Adding an extra Meal Planning Page (<https://spoonacular.com/food-api/docs#Generate-Meal-Plan>)
-  
+This is a student project that was created at
+[CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona.
